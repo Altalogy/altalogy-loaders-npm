@@ -33,8 +33,11 @@
   "author": "Altalogy",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/Altalogy/altalogy-loaders-npm.git",
   "keywords": [
-    "react-component"
+    "react-component",
+    "loaders",
+    "react",
+    "altalogy"
   ]
 }
