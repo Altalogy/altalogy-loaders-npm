@@ -1,13 +1,20 @@
 import React, {Component} from 'react'
 import {render} from 'react-dom'
 
-import Example from '../../src'
+import AltaLoaders from '../../src/AltaLoaders'
 
 class Demo extends Component {
   render() {
     return <div>
       <h1>altaloaders-npm Demo</h1>
-      <Example/>
+      <AltaLoaders
+        type='Circle'
+        size='md'
+        primaryColor='#44ce90'
+        secondaryColor=''
+        text='Kuba is typing ...'
+        textPlace='bottom'
+      />
     </div>
   }
 }

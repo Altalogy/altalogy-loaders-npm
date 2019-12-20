@@ -1,0 +1,19 @@
+@import url('../../styles/animations.css');
+@import url('../../styles/sizes.css');
+
+.multi__loader {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.multi__loader .multi {
+    position: absolute;
+    width: calc(100% - 9.9px);
+    height: calc(100% - 9.9px);
+    border: 5px solid transparent;
+    border-top-color: #2f5ef7;
+    border-radius: 50%;
+    -webkit-animation: spin 3s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+    animation: spin 3s cubic-bezier(0.17, 0.49, 0.96, 0.76) infinite;
+}

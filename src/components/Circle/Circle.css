@@ -1,0 +1,64 @@
+@import url('../../styles/animations.css');
+@import url('../../styles/sizes.css');
+
+.circle__loader {
+    position: relative;
+    margin: auto;
+}
+
+.circle__loader > div {
+    height: 10px;
+    width: 10px;
+    background-color: #2f5ef7;
+    border-radius: 50%;
+    position: absolute;
+    -webkit-animation: 0.8s opaque ease-in-out infinite both;
+    animation: 0.8s opaque ease-in-out infinite both;
+}
+  
+.circle__loader > div:nth-child(1) {
+    top: 0;
+    left: 42%;
+}
+.circle__loader > div:nth-child(2) {
+    top: 14%;
+    left: 70%;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+.circle__loader > div:nth-child(3) {
+    top: 40%;
+    left: 82%;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+.circle__loader > div:nth-child(4) {
+    bottom: 14%;
+    left: 70%;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+.circle__loader > div:nth-child(5) {
+    bottom: 0;
+    left: 42%;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+.circle__loader > div:nth-child(6) {
+    bottom: 14%;
+    left: 12%;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+.circle__loader > div:nth-child(7) {
+    top: 40%;
+    left: 2%;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+.circle__loader > div:nth-child(8) {
+    top: 14%;
+    left: 12%;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}

@@ -1,0 +1,26 @@
+@import url('./styles/animations.css');
+@import url('./styles/sizes.css');
+
+.loader__cmp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader__cmp label {
+    font-weight: 600;
+    margin: 15px 0;
+
+}
+.loader__cmp .inline__loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.loader__cmp .inline__loader label {
+    font-weight: 600;
+    margin: 0 15px;
+}

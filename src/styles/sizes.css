@@ -1,0 +1,12 @@
+.size--sm {
+    width: 30px;
+    height: 30px;
+}
+.size--md {
+    width: 60px;
+    height: 60px;
+}
+.size--lg {
+    width: 90px;
+    height: 90px;
+}

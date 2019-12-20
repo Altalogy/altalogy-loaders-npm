@@ -1,0 +1,26 @@
+@import url('../../styles/animations.css');
+@import url('../../styles/sizes.css');
+
+.dot__loader {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dot__loader .dot {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    background-color: #2f5ef7;
+    position: relative;
+    -webkit-animation: 1.2s grow ease-in-out infinite;
+    animation: 1.2s grow ease-in-out infinite;
+}
+.dot__loader .dot--2 {
+    -webkit-animation: 1.2s grow ease-in-out infinite 0.15555s;
+    animation: 1.2s grow ease-in-out infinite 0.15555s;
+}
+.dot__loader .dot--3 {
+    -webkit-animation: 1.2s grow ease-in-out infinite 0.3s;
+    animation: 1.2s grow ease-in-out infinite 0.3s;
+}

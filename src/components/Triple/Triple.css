@@ -1,0 +1,37 @@
+@import url('../../styles/animations.css');
+@import url('../../styles/sizes.css');
+
+.triple__loader {
+    margin: auto;
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top: 4px solid #2f5ef7;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+.triple__loader .div-1,
+.triple__loader .div-2 {
+    position: absolute;
+    border-radius: 50%;
+    border: 4px solid transparent;
+}
+.triple__loader .div-1 {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-top-color: #172232;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3.5s linear infinite;
+}
+.triple__loader .div-2 {
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-top-color: #2f5ef7;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.75s linear infinite;
+}

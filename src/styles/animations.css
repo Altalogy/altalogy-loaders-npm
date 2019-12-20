@@ -1,0 +1,94 @@
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+  
+@keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spinBack {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(-720deg);
+        transform: rotate(-720deg);
+    }
+}
+  
+@keyframes spinBack {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(-720deg);
+        transform: rotate(-720deg);
+    }
+}
+
+@-webkit-keyframes opaque {
+    0% {
+        opacity: 0.1;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 0.1;
+    }
+}
+  
+@keyframes opaque {
+    0% {
+        opacity: 0.1;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 0.1;
+    }
+}
+
+@-webkit-keyframes grow {
+    0%, 40%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes grow {
+    0%, 40%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
