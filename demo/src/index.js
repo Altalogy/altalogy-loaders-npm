@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {render} from 'react-dom'
 import './style.css'
+import Logo from '../../src/assets/altaloaders.png'
 import AltaLoaders from '../../src/AltaLoaders'
 
 const DATA = [
@@ -23,7 +24,7 @@ class Demo extends Component {
     return (
       <div className='container'>
         <header>
-          <img src='../../src/assets/altaloaders.png' alt='logo-AL'/>
+          <img src={Logo} alt='logo-AL'/>
           <h1>AltaLoaders</h1>
         </header>
         <div className='altaloaders__demo__cmp'>
