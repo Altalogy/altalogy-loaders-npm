@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+html, body {
+    font-family: 'Muli', sans-serif;
+    background-image: url('../../src/assets/background3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: auto;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgba(219, 229, 236, .3);
+    border-radius: 5px;
+    padding: 0 30px;
+    background-color: white;
+    box-shadow: 0 4px 23px 0 rgba(219,229,236,.6);
+}
+header img {
+    max-width: 100px;
+    margin-right: 2rem;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+.altaloaders__demo__cmp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: ce
+}
+
+.altaloaders__demo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    min-width: 300px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+    flex: 1; 
+    box-shadow: 0 4px 23px 0 rgba(219,229,236,.6);
+    position: relative;
+}
+
+.altaloaders__demo .type {
+    background-color: rgba(219, 229, 236, .3);
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 0 10px;
+}

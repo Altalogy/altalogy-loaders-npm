@@ -50,7 +50,7 @@ const AltaLoaders = (props) => {
         }
     }
     return ( 
-        <div>
+        <div className='loaders__cnt'>
             { textPlace && textPlace.length > 0 && text && text.length > 0 ?
                getLoaderWithText(textPlace) :
                 <div className='loader__cmp'>

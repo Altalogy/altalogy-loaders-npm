@@ -1,0 +1,50 @@
+@import url('../../styles/animations.css');
+@import url('../../styles/sizes.css');
+
+.line__loader,.line2__loader,.line3__loader {
+    width: 100%!important;
+    position: relative;
+    background-color: #f2f2f2;
+}
+
+.line__loader div {
+    position: absolute;
+    top:0;
+    right: 100%;
+    height: 100%!important;
+    background-color: #2f5ef7;
+}
+
+.line__size--sm div {
+    -webkit-animation: 2s line-sm linear infinite;
+    animation: 2s line-sm linear infinite;
+}
+
+.line__size--md div {
+    -webkit-animation: 2s line-md linear infinite;
+    animation: 2s line-md linear infinite;
+}
+
+.line__size--lg div {
+    -webkit-animation: 2s line-lg linear infinite;
+    animation: 2s line-lg linear infinite;
+}
+
+.line2__loader div {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%!important;
+    background-color: #2f5ef7;
+    -webkit-animation: 2s line2 linear infinite;
+    animation: 2s line2 linear infinite;
+}
+
+.line3__loader div {
+    position: absolute;
+    width: 0!important;
+    height: 100%!important;
+    background-color: #2f5ef7;
+    -webkit-animation: 2s line3 linear infinite;
+    animation: 2s line3 linear infinite;
+}

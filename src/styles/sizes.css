@@ -10,3 +10,16 @@
     width: 90px;
     height: 90px;
 }
+
+.line__size--sm {
+    width: 4px;
+    height: 4px;
+}
+.line__size--md {
+    width: 8px;
+    height: 8px;
+}
+.line__size--lg {
+    width: 12px;
+    height: 12px;
+}
