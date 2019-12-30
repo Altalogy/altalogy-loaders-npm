@@ -30,7 +30,7 @@ class Demo extends Component {
           { DATA.map((loader,idx) => {
             return (
               <div key={idx} className='altaloaders__demo'>
-                <AltaLoaders type={loader} size='lg' />
+                <AltaLoaders type={loader} />
                 <div className='type'>{`type: ${loader}`}</div>
               </div>
             )
