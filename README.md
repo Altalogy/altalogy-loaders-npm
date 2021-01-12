@@ -1,17 +1,57 @@
-## altalogy-loaders-npm
+# altalogy-loaders-npm
 
-# Getting Started
+## Getting Started
 
 1) Install:
 
+`npm install altaloaders-npm `
+
 2) Import:
+```
+ import AltaLoaders from 'altaloaders-npm
+ 
+ <AltaLoaders {...} />
+```
 
 3) Options:
 
+- `type`,
+- `size`,
+- `primaryColor`,
+- `secondaryColor`,
+- `text`,
+- `textPlace`,
 
-# Development
+Property | Values | Description
+--- | --- | ---
+type | [String] | Display loader of current type
+size | [String] | Changing size of loader
+primaryColor | [String] | Change main color
+secondaryColor | [String] | Change secondary color
+text | [String] | Display text for loader 
+textPlace | [String] | Enables to select place for label
 
-Getting Started
+Available types:
+`Circle` | `Border` | `Multi` | `Triple` | `Noborder` | `Reverse` | `Dbborder` | `Dots` | `Boxes` | `Line` | `Line2` | `Line3`
+
+Available sizes:
+`sm` | `md` | `lg`
+
+Available text places:
+`left` | `top` | `right` | `bottom`
+
+## Usage
+
+```
+<AltaLoaders
+  type='Circle'
+  size='md'
+  primaryColor='#444'
+  secondaryColor=''
+  text='Data is loading..'
+  textPlace='bottom'
+/>
+```
 
 ## Prerequisites
 
@@ -38,3 +78,7 @@ Getting Started
 - `npm run build` will build the component for publishing to npm and also bundle the demo app.
 
 - `npm run clean` will delete built resources.
+
+## License
+
+This code is released under the MIT License.
